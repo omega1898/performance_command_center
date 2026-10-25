@@ -1,0 +1,24 @@
+# build output
+build/
+*.o
+*.obj
+*.a
+*.so
+*.out
+a.out
+
+# cmake
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+
+# editor / os
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# benchmark raw dumps (keep summarized reports, not multi-GB traces)
+*.perf
+perf.data*
+*.trace
