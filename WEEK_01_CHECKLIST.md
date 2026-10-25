@@ -24,6 +24,12 @@ Stop at 20 hours. If something does not fit, write it under "Cut" in your weekly
 - [ ] Explain "what happens between `gcc main.c` and a running process" aloud in 2 minutes; record it.
 - [ ] Draft STAR story #1 (a hard bug you fixed at work) in `design_docs/stories.md`.
 
+## Every session
+- [ ] Commit and push when you finish (`git add -A && git commit -m "..." && git push`). See `GITHUB_WORKFLOW.md`.
+
+## Once, this week
+- [ ] Install the Claude GitHub App on this repo so the Saturday check-in can upload its report (steps in `GITHUB_WORKFLOW.md`).
+
 ## End of week
-- [ ] Fill in the weekly log (template in file 50 §11).
-- [ ] Push to your public GitHub repository.
+- [ ] Saturday: read your check-in on the `claude/checkins` branch.
+- [ ] Sunday: copy `logs/TEMPLATE.md` to `logs/week-01.md`, fill it in, commit and push.

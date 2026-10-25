@@ -44,4 +44,4 @@ cmake -S . -B build-san -DCMAKE_BUILD_TYPE=Debug -DSANITIZE=ON
 cmake --build build-san -j && ctest --test-dir build-san --output-on-failure
 ```
 
-Start with `WEEK_01_CHECKLIST.md`.
+Start with `WEEK_01_CHECKLIST.md`. The plan is `PLAN.md` (20 hours/week maximum). How to save, push, log and read the weekly check-in: `GITHUB_WORKFLOW.md`.
